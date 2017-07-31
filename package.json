@@ -1,0 +1,28 @@
+{
+  "name": "tapu_no_tatsujin_origin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",  
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leohliao/tapu_no_tatsujin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leohliao/tapu_no_tatsujin/issues"
+  },
+  "homepage": "https://github.com/leohliao/tapu_no_tatsujin#readme",
+  "dependencies": {
+    "webpack": "^3.4.1"
+  }
+}
