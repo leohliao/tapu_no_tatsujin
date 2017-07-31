@@ -43,17 +43,24 @@ Section Two will be the gaming area, where beats (represent in circles) will scr
 
 ## Implementation Timeline
   ** Day 1 ** Setup all necessary modules: `view.js`
+
         - Prepare all the assets (background, beats, and music)
         - Set Up `webpack`
           * Download and install `Easel.js`.
           * Get all three files bundled up with entry files.
+
   ** Day 2 ** : Complete the tap module where beats scroll across the scree. `tap.js`
+
         - Complete the beats module (constructor and functions)
         - render all the beats in the canvas
+
   ** Day 3 ** : Implement game logic of beats matching with player's timing. `game.js`
+
         - Game logic: if beats and taps matched, then player get scores, else, they miss the hit.
         - Styling.
+
   ** Day 4 ** : Continue on styling, include interactive Functionality for the player so that they can choose level of difficulties, start and pause game, turn on or off music.
+  
 
 ## Bonus Features
 
