@@ -1,0 +1,159 @@
+/* ----------- Reset the html ----------- */
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol, ul {
+  list-style: none;
+}
+*/
+/* ----------- End Reset the html ----------- */
+
+/* ----------- Major Class ----------- */
+body {
+  display: flex;
+  flex-flow: column;
+  background-color: red;
+}
+
+body h1 {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  font-stretch: expanded;
+  color: orange;
+  margin-bottom: -2px;
+  text-shadow: 2px 2px white,
+               4px 3px yellow;
+}
+
+.all-container {
+  display: flex;
+  align-self: center;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0 0 0 4px orange;
+  border-radius: 4px;
+}
+/* ----------- Sub Major Class ----------- */
+.info-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: orange;
+  width: 250px;
+  height: 600px;
+  backface-visibility: visible;
+  background-image: url('background_left.jpg');
+}
+
+.info-intro-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.info-intro-container h2 {
+  font-size: 36px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.info-intro-container p {
+  padding: 0px 30px;
+  margin-top: -10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info-level-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.info-level-container h2 {
+  font-size: 36px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.info-music-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.info-music-container h2 {
+  font-size: 36px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+/* ----------- Sub Major Class ----------- */
+.game-container {
+  width: 400px;
+  height: 600px;
+  background-image: url('background_mid.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ----------- Sub Major Class ----------- */
+.scoreboard-container {
+  background-image: url('background_right.jpg');
+  width: 250px;
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.scoreboard-score-container {
+  margin: 20px auto;
+}
+
+.scoreboard-score-container h2, h3 {
+  font-size: 36px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.scoreboard-score-container h3 {
+  font-size: 26px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.scoreboard-button-container {
+  display: flex;
+  flex-flow: column;
+  margin: 20px auto;
+}
+
+
+/* ----------- End Major Class ----------- */
