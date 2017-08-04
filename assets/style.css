@@ -178,6 +178,8 @@ body h1 {
 
 .score {
   font-family: 'Luckiest Guy', cursive;
+  padding-top: 10px;
+  font-stretch: extra-expanded;
   color: white;
   width: 150px;
   border: 1px solid black;
