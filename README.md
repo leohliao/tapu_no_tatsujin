@@ -1,9 +1,9 @@
-![LIVE](https://leohliao.github.io/tapu_no_tatsujin/index.html)
+
 
 # The Master of Tap (Tapu no Tatsujin)
+[LIVE](https://leohliao.github.io/tapu_no_tatsujin/index.html)
 
-
-## Prologue
+## History
 
 The Master of Tap is a web game inspired by the famous arcade game, "Taiko no Tatsujin". Taiko no Tatsujin, which literally means the Taiko Master, is a game where players simulate playing a Taiko drum in time with music.
 
@@ -12,12 +12,16 @@ This replication game will be structured with 2 empty (circle) on each corner of
 
 ## Functionality and MVP
 
+![GIF](https://gyazo.com/d923f0eb3d05f367a93f68c8d347d059)
+
 Players will be able to perform the following actions:
   * start and pause the game.
   * choose a level of difficulty.
   * see their scores.
   * user the valid keyboards to receive points.
   * ability to mute music.
+
+![title](https://user-images.githubusercontent.com/25352090/28978222-fdf025e0-78f9-11e7-9516-da349db0cc6c.png)
 
 Games Interface will include:
   * music.
@@ -37,31 +41,10 @@ Section Two will be the gaming area, where beats (represent in circles) will scr
   * Easel.js with HTML5 Canvas for DOM manipulation and rendering.
   * Webpack bundle to incorporate multiple files.
 
-  There will be three major elements for this game:
-  `view.js` : Handles the logic of creating and updating canvas element and render them onto DOM.
-  `tap.js` : Functions of the beats.
-  `game.js` : Handles the logic of the game.
+## Coding Style
 
 
-## Implementation Timeline
-  **Day 1**: Setup all necessary modules: `view.js`
-        - Prepare all the assets (background, beats, and music)
-        - Set Up `webpack`
-          * Download and install `Easel.js`.
-          * Get all three files bundled up with entry files.
-
-  **Day 2**: Complete the tap module where beats scroll across the scree. `tap.js`
-        - Complete the beats module (constructor and functions)
-        - render all the beats in the canvas
-
-  **Day 3**: Implement game logic of beats matching with player's timing. `game.js`
-        - Game logic: if beats and taps matched, then player get scores, else, they miss the hit.
-        - Styling.
-
-  **Day 4**: Continue on styling, include interactive functionality for the player so that they can choose level of difficulties, start and pause game, turn on or off music.
-
-
-## Bonus Features
+## Future Direction
 
   - More music choices.
   - Multi-player mode.
