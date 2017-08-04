@@ -12,7 +12,7 @@ This replication game will be structured with 2 empty (circle) on each corner of
 
 ## Functionality and MVP
 
-![GIF](https://i.gyazo.com/d923f0eb3d05f367a93f68c8d347d059.gif)
+![GIF](https://user-images.githubusercontent.com/25352090/28979723-b8b81824-78ff-11e7-8192-5e8b6622b1f5.gif)
 
 Players will be able to perform the following actions:
   * start and pause the game.
