@@ -209,11 +209,11 @@ body h1 {
 .scoreboard-button-container button {
   margin: 10px auto;
   border: 2px solid black;
-  width: 150px;
+  width: 100px;
   height: 32px;
   background-color: white;
   font-family: 'Luckiest Guy', cursive;
-  font-size: 32px;
+  font-size: 14px;
   border-radius: 10px;
 }
 
