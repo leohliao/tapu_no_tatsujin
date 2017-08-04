@@ -8,15 +8,15 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
+  /*margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   font-weight: inherit;
   font-style: inherit;
-  font-size: 100%;
+  font-size: 100%;*/
   font-family: 'Luckiest Guy', cursive;
-  vertical-align: baseline;
+  /*vertical-align: baseline;*/
 }
 /*
 :focus {
@@ -46,6 +46,7 @@ body h1 {
   font-size: 50px;
   font-stretch: expanded;
   color: orange;
+  margin-top: 20px;
   margin-bottom: -2px;
   text-shadow: 2px 2px white,
                4px 3px yellow;
@@ -86,19 +87,41 @@ body h1 {
 .info-intro-container p {
   padding: 0px 30px;
   margin-top: -10px;
+  margin-bottom: -10px;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(255,255,255, 0.6);
+  width: 200px;
 }
 
 .info-level-container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 15px auto;
+  margin: 15px auto -30px;
 }
 
 .info-level-container h2 {
   font-size: 36px;
   font-family: 'Luckiest Guy', cursive;
+  margin-bottom: -10px;
+}
+
+.info-level-container button {
+  margin: 6px auto;
+  border: 2px solid black;
+  width: 150px;
+  height: 22px;
+  background-color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.info-level-container button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .info-music-container {
@@ -106,6 +129,22 @@ body h1 {
   flex-flow: column;
   align-items: center;
   margin: 15px auto;
+}
+
+.info-music-container button {
+  margin: 6px auto;
+  border: 2px solid black;
+  width: 90px;
+  height: 22px;
+  background-color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.info-music-container button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .info-music-container h2 {
@@ -137,16 +176,26 @@ body h1 {
   margin: 20px auto;
 }
 
+.score {
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(0,0,0, 0.5);
+  vertical-align: middle;
+}
+
 .scoreboard-score-container h2, h3 {
   font-size: 36px;
   font-family: 'Luckiest Guy', cursive;
+  vertical-align: middle;
 }
 
 .scoreboard-score-container h3 {
   font-size: 26px;
   text-align: center;
   vertical-align: middle;
-
 }
 
 .scoreboard-button-container {
@@ -154,6 +203,23 @@ body h1 {
   flex-flow: column;
   margin: 20px auto;
 }
+
+.scoreboard-button-container button {
+  margin: 10px auto;
+  border: 2px solid black;
+  width: 150px;
+  height: 32px;
+  background-color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+.scoreboard-button-container button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 
 
 /* ----------- End Major Class ----------- */
