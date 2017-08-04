@@ -1,16 +1,16 @@
 
 
 # The Master of Tap (Tapu no Tatsujin)
-[LIVE](https://leohliao.github.io/tapu_no_tatsujin/index.html)
+[THE MASTER OF TAP LIVE](https://leohliao.github.io/tapu_no_tatsujin/index.html)
 
-## History
+## Introduction
 
 The Master of Tap is a web game inspired by the famous arcade game, "Taiko no Tatsujin". Taiko no Tatsujin, which literally means the Taiko Master, is a game where players simulate playing a Taiko drum in time with music.
 
 This replication game will be structured with 3 empty (circle) on the bottom corner of the screen. Then once the game starts, player will see beats (represent in circles) scrolling across the screen.  As these beats reaches to indicated area, the player must tap the key at the right timing in order to receive scores. Please note that all the illustrations and music used in this project are copyrighted material that belongs to "Taiko no Tatsujin".
 
 
-## Functionality and MVP
+## Features
 
 ![GIF](https://user-images.githubusercontent.com/25352090/28979723-b8b81824-78ff-11e7-8192-5e8b6622b1f5.gif)
 
@@ -21,13 +21,8 @@ Players are able to perform the following actions:
   * user the valid keyboards to receive points.
   * ability to mute music.
 
-Games interface includes:
-  * music.
-  * keyboards display and rules of play.
-  * keyboard for pressing.
 
-
-## Wireframes
+## User Interface:
 
 ![title](https://user-images.githubusercontent.com/25352090/28978222-fdf025e0-78f9-11e7-9516-da349db0cc6c.png)
 
@@ -46,8 +41,7 @@ The game consist of a single screen split into three sections:
 
 ## Coding Style
 
-  * Due to time concern, the current pattern for tap generator is random.
-  However, with the current style of setInterval, the time is fixed the first time when we called the function and thus we cannot achieve varieties of taps falling pattern.  However, this problem was solved after implementing a setTimeout function inside the setInterval:
+  * Taps are generated at a fixed interval of time. However, we want to be able to randomize this interval for generating so that the beats are more diversified. The problem is that with the current style of setInterval, the time is fixed the first time when we called the function and thus we cannot achieve varieties of taps falling pattern.  However, this problem was solved after implementing a setTimeout function inside the setInterval:
 
   ```js
 
