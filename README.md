@@ -47,6 +47,7 @@ Section Three will be the socre board, game control and control keyboard referen
   However, with the current style of setInterval, the time is fixed the first time when we called the function and thus we cannot achieve varieties of taps falling pattern.  However, this problem was solved after implementing a setTimeout function inside the setInterval:
 
   ```js
+
   if (difficulties === "beginner") {
       this.speed = 120;
       this.music(ConanTheme());
@@ -64,6 +65,34 @@ Section Three will be the socre board, game control and control keyboard referen
 
   This code will call my setTimeout function at frequent of 800 mms,
   where my setTimeout will be activated after certain amount of time created by "createInterval" function, where its max and min are defined according to the level of difficulties that the user's choices.
+
+  * Randomized Hitting Messages and Missed Messages:
+  In order to achieve the optimum effect of randomized these messages,
+  I passed in max and min each time when I have to generate these messages:
+
+  ```js
+  // code ...
+
+  if (this.currentRowMid[0] &&
+      this.currentRowMid[0].y > 510 &&
+      this.currentRowMid[0].y < 540) {
+    this.removeTap(this.currentRowMid);
+    this.hitMessage(130, 200);
+  }
+
+  // code ...
+  export const hitMessages = (x, y) => {
+    const messageContainer = ["Great!", "Fantastic!", "Amazing!",
+        "Good!", "Perfect!", "Hit!"];
+    let messages = messageContainer[Math.floor( Math.random()
+        * messageContainer.length)];
+    // code ...
+    text.x = Math.floor(Math.random() * (y - x))+ x;
+    text.y = Math.floor(Math.random() * (500-435)) + 435;
+    // code ...
+  };
+
+  ```
 
 ## Future Direction
 
