@@ -7,23 +7,24 @@
 
 The Master of Tap is a web game inspired by the famous arcade game, "Taiko no Tatsujin". Taiko no Tatsujin, which literally means the Taiko Master, is a game where players simulate playing a Taiko drum in time with music.
 
-This replication game will be structured with 2 empty (circle) on each corner of the screen. Then once the game starts, player will see beats (represent in circles) scrolling across the screen.  As these beats reaches to indicated area, the player must tap the key at the right timing in order to receive scores. Please note that all the illustrations and music used in this project are copyrighted material that belongs to "Taiko no Tatsujin".
+This replication game will be structured with 3 empty (circle) on the bottom corner of the screen. Then once the game starts, player will see beats (represent in circles) scrolling across the screen.  As these beats reaches to indicated area, the player must tap the key at the right timing in order to receive scores. Please note that all the illustrations and music used in this project are copyrighted material that belongs to "Taiko no Tatsujin".
 
 
 ## Functionality and MVP
 
 ![GIF](https://user-images.githubusercontent.com/25352090/28979723-b8b81824-78ff-11e7-8192-5e8b6622b1f5.gif)
 
-Players will be able to perform the following actions:
+Players are able to perform the following actions:
   * start and pause the game.
   * choose a level of difficulty.
   * see their scores.
   * user the valid keyboards to receive points.
   * ability to mute music.
 
-Games Interface will include:
+Games interface includes:
   * music.
   * keyboards display and rules of play.
+  * keyboard for pressing.
 
 
 ## Wireframes
@@ -35,11 +36,13 @@ The game consist of a single screen split into three sections:
 * Section Two will be the gaming area, where beats (represent in circles) will scroll from the top of the screen to the bottom. Once the beats reach to the bottom space, player must tap the keyboard in order to receive the points.
 * Section Three will be the score board, game control and control keyboard reference.
 
+
 ## Architecture and Technologies
 
   * Vanilla JavaScript for overall structure of the game.
   * Easel.js with HTML5 Canvas for DOM manipulation and rendering.
   * Webpack bundle to incorporate multiple files.
+
 
 ## Coding Style
 
@@ -63,7 +66,7 @@ The game consist of a single screen split into three sections:
 
   ```
 
-  This code will call my setTimeout function at frequent of 800 mms,
+  This code will call my setTimeout function at frequent of 800 mms (this number varies),
   where my setTimeout will be activated after certain amount of time created by "createInterval" function, where its max and min are defined according to the level of difficulties that the user's choices.
 
   * Randomized Hitting Messages and Missed Messages:
