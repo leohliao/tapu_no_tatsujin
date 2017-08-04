@@ -30,10 +30,10 @@ Games Interface will include:
 
 ![title](https://user-images.githubusercontent.com/25352090/28978222-fdf025e0-78f9-11e7-9516-da349db0cc6c.png)
 
-The game consist of a single screen split into three sections.  
-Section One will be displaying the rules of how to play the game; levels of selection and music control panel.
-Section Two will be the gaming area, where beats (represent in circles) will scroll from the top of the screen to the bottom. Once the beats reach to the bottom space, player must tap the keyboard in order to receive the points.
-Section Three will be the socre board, game control and control keyboard reference.
+The game consist of a single screen split into three sections:
+* Section One will be displaying the rules of how to play the game; levels of selection and music control panel.
+* Section Two will be the gaming area, where beats (represent in circles) will scroll from the top of the screen to the bottom. Once the beats reach to the bottom space, player must tap the keyboard in order to receive the points.
+* Section Three will be the score board, game control and control keyboard reference.
 
 ## Architecture and Technologies
 
