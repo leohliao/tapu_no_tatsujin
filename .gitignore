@@ -4,8 +4,7 @@
 
 draw/
 node_modules/
-lib/bundle.js
-lib/bundle.js.map
+
 .byebug_history
 .DS_Store
 npm-debug.log
