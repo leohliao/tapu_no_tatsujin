@@ -4,6 +4,7 @@
 
 draw/
 node_modules/
+props/
 
 .byebug_history
 .DS_Store
