@@ -52,6 +52,10 @@ body h1 {
                4px 3px yellow;
 }
 
+button {
+  outline: none;
+}
+
 .all-container {
   display: flex;
   align-self: center;
