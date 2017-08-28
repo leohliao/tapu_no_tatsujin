@@ -77,6 +77,7 @@ body h1 {
   flex-flow: column;
   align-items: center;
   margin: 15px auto;
+  padding: 8px;
 }
 
 .info-intro-container h2 {
@@ -85,14 +86,15 @@ body h1 {
 }
 
 .info-intro-container p {
-  padding: 0px 30px;
+  padding: 10px 20px;
   margin-top: -10px;
   margin-bottom: -10px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: bold;
   background-color: rgba(255,255,255, 0.6);
-  width: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 .info-level-container {
@@ -110,9 +112,10 @@ body h1 {
 
 .info-level-container button {
   margin: 6px auto;
+  padding-top: 4px;
   border: 2px solid black;
   width: 150px;
-  height: 22px;
+  height: 40px;
   background-color: white;
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
@@ -128,14 +131,14 @@ body h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 15px auto;
+  margin: 35px auto;
 }
 
 .info-music-container button {
-  margin: 6px auto;
+  margin: -20px auto 20px;
   border: 2px solid black;
   width: 90px;
-  height: 22px;
+  height: 50px;
   background-color: white;
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
@@ -173,7 +176,7 @@ body h1 {
 }
 
 .scoreboard-score-container {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .score {
@@ -198,6 +201,8 @@ body h1 {
   font-size: 26px;
   text-align: center;
   vertical-align: middle;
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
 
 .scoreboard-button-container {
@@ -208,6 +213,7 @@ body h1 {
 
 .scoreboard-button-container button {
   margin: 10px auto;
+  padding: 9px;
   border: 2px solid black;
   width: 100px;
   height: 32px;
@@ -215,6 +221,7 @@ body h1 {
   font-family: 'Luckiest Guy', cursive;
   font-size: 14px;
   border-radius: 10px;
+  vertical-align: middle;
 }
 
 .scoreboard-button-container button:hover {
@@ -222,6 +229,20 @@ body h1 {
   transform: scale(1.1);
 }
 
+.scoreboard-container-link {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
 
+.scoreboard-container-link img {
+  width: 50px;
+  height: 50px;
+}
+
+.scoreboard-container-link img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
 
 /* ----------- End Major Class ----------- */
